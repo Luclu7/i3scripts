@@ -49,14 +49,15 @@ from util import *
 # xprop (https://linux.die.net/man/1/xprop). Run `xprop | grep WM_CLASS`
 # then click on the application you want to inspect.
 WINDOW_ICONS = {
-    'alacritty': fa.icons['terminal'],
-    'atom': fa.icons['code'],
-    'banshee': fa.icons['play'],
+    'termite': fa.icons['terminal'],
+    'vim': fa.icons['code'],
+    'mpv': fa.icons['play'],
     'blender': fa.icons['cube'],
     'chromium': fa.icons['chrome'],
     'cura': fa.icons['cube'],
     'darktable': fa.icons['image'],
     'discord': fa.icons['comment'],
+    'telegram-desktop': fa.icons['comment'],
     'eclipse': fa.icons['code'],
     'emacs': fa.icons['code'],
     'eog': fa.icons['image'],
@@ -83,6 +84,7 @@ WINDOW_ICONS = {
     'mupdf': fa.icons['file-pdf'],
     'mysql-workbench-bin': fa.icons['database'],
     'nautilus': fa.icons['copy'],
+    'org.gnome.Nautilus': fa.icons['copy'],
     'nemo': fa.icons['copy'],
     'openscad': fa.icons['cube'],
     'pavucontrol': fa.icons['volume-up'],
